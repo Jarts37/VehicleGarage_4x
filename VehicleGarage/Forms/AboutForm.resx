@@ -121,6 +121,8 @@
     <value>Author: Machiavelli 
 This tool was developed as a tool for the Trinity project.
 
+Ported to the 4.06a dbc Structure by Naios
+
 Vehicle Garage was inspired by the SpellWork tool which was originally written by Chestr, and rewritten to C# by LordJz. The latter version has also been a source of various code snippets that Vehicle Garage utilizes.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />

@@ -86,7 +86,7 @@
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(238, 24);
             this.richTextBox2.TabIndex = 1;
-            this.richTextBox2.Text = "Supports client build 12340.";
+            this.richTextBox2.Text = "Supports client build 13623.";
             // 
             // AboutForm
             // 

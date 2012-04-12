@@ -63,6 +63,13 @@ namespace VehicleGarage.DBCStructures
         public float Unk10; // added in 3.1
         public float Unk11; // added in 3.1
         public float Unk12; // added in 3.1
+        public float Unk13; // added in 4.x
+        public float Unk14; // added in 4.x
+        public float Unk15; // added in 4.x
+        public float Unk16; // added in 4.x
+        public float Unk17; // added in 4.x
+        public float Unk18; // added in 4.x
+        public float Unk19; // added in 4.x
+        public float Unk20; // added in 4.x
     }
-
 }
