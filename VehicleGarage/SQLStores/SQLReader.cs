@@ -19,7 +19,7 @@ namespace VehicleGarage.SQLStores
             {
                 var command =
                     new MySqlCommand(
-                        "SELECT entry,name,npcflag,unit_flags,dynamicflags,VehicleId,AIName,InhabitType,ScriptName,WDBVerified FROM creature_template WHERE VehicleId <>0",
+                        "SELECT entry,name,npcflag,unit_flags,dynamicflags,VehicleId,AIName,InhabitType,ScriptName,VerifiedBuild FROM creature_template WHERE VehicleId <>0",
                         conn);
                 
                 conn.Open();
@@ -39,7 +39,7 @@ namespace VehicleGarage.SQLStores
                                                        AIName = reader[6].ToString(),
                                                        InhabitType = reader[7].ToUInt32(),
                                                        ScriptName = reader[8].ToString(),
-                                                       WDBVerified = reader[9].ToUInt32()
+                                                       VerifiedBuild = reader[9].ToUInt32()
                                                    };
 
                         dict[creatureTemplate.Id.ToInt32()] = creatureTemplate;
