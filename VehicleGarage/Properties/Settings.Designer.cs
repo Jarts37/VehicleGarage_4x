@@ -49,7 +49,7 @@ namespace VehicleGarage.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("user")]
+        [global::System.Configuration.DefaultSettingValueAttribute("User")]
         public string User {
             get {
                 return ((string)(this["User"]));
@@ -61,7 +61,7 @@ namespace VehicleGarage.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("pass")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Pass")]
         public string Pass {
             get {
                 return ((string)(this["Pass"]));

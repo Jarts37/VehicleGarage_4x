@@ -48,7 +48,7 @@ namespace VehicleGarage.Info
             _rtb.AppendFormatLine("Vehicle ID: {0}", _vehicle.Id);
             _rtb.AppendFormatLine("Locomotion Type: {0}", _vehicle.LocomotionType);
             _rtb.AppendFormatLine("Seat Indicator Type: {0}", _vehicle.SeatIndicatorType);
-            _rtb.AppendFormatLine("Power Type: {0}", _vehicle.PowerType);
+            _rtb.AppendFormatLine("Power Type: {0}", _vehicle.PowerType0);
             _rtb.AppendFormatLine("Turn Speed: {0}", _vehicle.TurnSpeed);
             _rtb.AppendFormatLine("Pitch Speed: {0}", _vehicle.PitchSpeed);
             _rtb.AppendFormatLine("Pitch Min: {0}", _vehicle.PitchMin);
@@ -73,8 +73,8 @@ namespace VehicleGarage.Info
             _rtb.AppendFormatLine("Missle Target Arc Texture: {0}", _vehicle.MissleTargetArcTexture);
             _rtb.AppendFormatLine("Missle Target Impact Model 1: {0}", _vehicle.MissleTargetImpactModel1);
             _rtb.AppendFormatLine("Missle Target Impact Model 2: {0}", _vehicle.MissleTargetImpactModel2);
-            _rtb.AppendFormatLine("Unk1: {0}", _vehicle.Unk1);
-            _rtb.AppendFormatLine("Unk2: {0}", _vehicle.Unk2);
+            _rtb.AppendFormatLine("PowerType1: {0}", _vehicle.PowerType1);
+            _rtb.AppendFormatLine("PowerType2: {0}", _vehicle.PowerType2);
             _rtb.AppendLine();
 
             _rtb.SetBold();

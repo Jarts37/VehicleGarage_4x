@@ -9,10 +9,10 @@
       <Value Profile="(Default)">3306</Value>
     </Setting>
     <Setting Name="User" Type="System.String" Scope="User">
-      <Value Profile="(Default)">user</Value>
+      <Value Profile="(Default)">User</Value>
     </Setting>
     <Setting Name="Pass" Type="System.String" Scope="User">
-      <Value Profile="(Default)">pass</Value>
+      <Value Profile="(Default)">Pass</Value>
     </Setting>
     <Setting Name="WorldDB" Type="System.String" Scope="User">
       <Value Profile="(Default)">world</Value>

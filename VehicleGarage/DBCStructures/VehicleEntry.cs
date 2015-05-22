@@ -12,6 +12,7 @@ namespace VehicleGarage.DBCStructures
     {
         public uint Id;
         public uint Flags;
+        public uint FlagsB;
         public float TurnSpeed;
         public float PitchSpeed;
         public float PitchMin;
@@ -41,9 +42,9 @@ namespace VehicleGarage.DBCStructures
         public int LocomotionType;
         public float MissleTargetImpactTexRadius;
         public int SeatIndicatorType;
-        public int PowerType;
-        public int Unk1;        // New in 3.1 - Either -1 or 0 (most common)
-        public int Unk2;        // New in 3.1 - Always 0
+        public int PowerType0;
+        public int PowerType1;        
+        public int PowerType2;        
 
         
         public string MissleTargetArcTexture

@@ -51,25 +51,25 @@ namespace VehicleGarage.DBCStructures
         public int ExitUiSoundId;
         public int Skin;
         public int FlagsB;
-        public float Unk1;  // added in 3.1
-        public float Unk2;  // added in 3.1
-        public float Unk3;  // added in 3.1
-        public float Unk4;  // added in 3.1
-        public float Unk5;  // added in 3.1
-        public float Unk6;  // added in 3.1
-        public float Unk7;  // added in 3.1
-        public float Unk8;  // added in 3.1
-        public float Unk9;  // added in 3.1
-        public float Unk10; // added in 3.1
-        public float Unk11; // added in 3.1
-        public float Unk12; // added in 3.1
-        public float Unk13; // added in 4.x
-        public float Unk14; // added in 4.x
-        public float Unk15; // added in 4.x
-        public float Unk16; // added in 4.x
-        public float Unk17; // added in 4.x
-        public float Unk18; // added in 4.x
-        public float Unk19; // added in 4.x
-        public float Unk20; // added in 4.x
+        public float CameraEnteringDelay;
+        public float CameraEnteringDuration;
+        public float CameraExitingDelay;  
+        public float CameraExitingDuration;
+        public float CameraOffsetX;  
+        public float CameraOffsetY;  
+        public float CameraOffsetZ;
+        public float CameraPosChaseRate;  
+        public float CameraFacingChaseRate;  
+        public float CameraEnteringZoom; 
+        public float CameraSeatZoomMin; 
+        public float CameraSeatZoomMax;
+        public int EnterAnimKitID;
+        public int RideAnimKitID; 
+        public int ExitAnimKitID;
+        public int VehicleEnterAnimKitID; 
+        public int VehicleRideAnimKitID; 
+        public int VehicleExitAnimKitID; 
+        public int CameraModeID;
+        public int FlagsC; 
     }
 }

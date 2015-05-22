@@ -97,7 +97,7 @@ namespace VehicleGarage
                     || (!vehicleFlagMaskFilterOperator && (x.Flags & vehicleFlagMaskFilter) == 0)))
                 &&
                 (!filterPowerType || 
-                    x.PowerType == powerTypeFilter)
+                    x.PowerType0 == powerTypeFilter)
                 &&
                 (!filterSeatId ||
                     x.SeatId.Count(y => y == seatIdFilter) > 0)
